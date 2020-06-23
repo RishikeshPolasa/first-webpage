@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    color:red;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.one{
+    background: url("./cat.jpeg");
+    /* background-size: cover; */
+    background-position: center;
+    background-attachment: fixed;    
+}
+.two{
+    background: url("./tiger.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.three{
+    background:url("./lion.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+@media screen and (max-width:600px){
+    .one{
+        background: url("./cat.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;    
+    }
+    .two{
+        background: url("./tiger.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .three{
+        background:url("./lion.jpeg");
+        background-size: cover;
+        background-position:center;
+        background-attachment: fixed;
+    }
+}
